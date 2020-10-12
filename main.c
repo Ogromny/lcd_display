@@ -44,7 +44,7 @@ char *lcd[10] = {
 int main(int argc, char **argv)
 {
     if (argc != 2) {
-        fputs("You need to provide 2 arguments.", stderr);
+        fputs("You must pass one argument.", stderr);
         return 1;
     }
 
